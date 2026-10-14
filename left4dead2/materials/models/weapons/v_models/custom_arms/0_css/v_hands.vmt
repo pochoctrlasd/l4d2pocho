@@ -1,0 +1,15 @@
+"patch"
+{
+	include "materials\models\weapons\v_models\custom_arms\sym.vmt"
+	
+	insert
+	{
+		"$itemid" "0"
+		
+		"$basetexture"	"models\weapons\v_models\custom_arms\0_css\v_hands"
+		"$bumpmap" "models\weapons\v_models\custom_arms\0_css\v_hands_normal"
+		
+		"$envmap" "env_cubemap"
+		"$normalmapalphaenvmapmask" "1"
+	}
+}
