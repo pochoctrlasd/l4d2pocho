@@ -1,6 +1,0 @@
-VertexLitGeneric
-{
-   $basetexture "models/nennol/Sheepetexture/Mama"
- "$translucent" "1"
-    "$alphatest" "1"
-}
