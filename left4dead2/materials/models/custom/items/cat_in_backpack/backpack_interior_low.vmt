@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/Items/Cat_in_Backpack/Backpack_Interior_D"
+	"$bumpmap" "models/custom/Items/Cat_in_Backpack/Bandages_N"
+
+	$phong 1
+	$phongboost "0.5"
+	$phongexponent 7
+	$phongtint "[.85 .85 1]"
+	$phongfresnelranges "[.2 .5 5]"
+	$nodecal 1
+	$ambientocclusion 1
+
+}

@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+"$basetexture" "models/custom/Items/Cat_in_Backpack/Cat_Brown"
+"$bumpmap" "models/custom/Items/Cat_in_Backpack/Cat_N"
+$phongboost 1
+$phongexponent 1
+$phongfresnelranges "[0 2 30]"
+$BASEMAPLUMINANCEPHONGMASK 1
+$halflambert 1
+$phong 0
+"GPU>=2?$phong" 1
+}
