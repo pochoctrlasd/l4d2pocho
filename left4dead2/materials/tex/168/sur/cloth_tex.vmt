@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "tex/168/sur/cloth_tex"
+		$bumpmap "dev/dev_normal"
+	$lightwarptexture "tex/168/sur/basewarp"
+	$phong 1
+	$phongboost .02
+	$phongfresnelranges 1 .1 .1
+	"$halflambert" 1
+	"$nodecal" 1
+
+}

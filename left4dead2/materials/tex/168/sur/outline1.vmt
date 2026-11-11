@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "tex/168/sur/OUTLINE1"
+	"$nodecal" 1
+	$translucent 1
+	$scale "100"
+	 $CurrentHealth "100"
+	 $zero "0"
+	 $one "1"
+	Proxies
+	{
+	Health                              
+    {
+	     Scale "$scale"                 
+	     resultVar "$CurrentHealth"     
+	}
+		LessOrEqual              
+    {
+     "LessEqualVar" "$zero"
+     "greaterVar" "$one"
+     "srcVar1" "$CurrentHealth"
+     "srcVar2" "$zero"
+     "resultVar" "$alpha"
+    }
+	}
+}

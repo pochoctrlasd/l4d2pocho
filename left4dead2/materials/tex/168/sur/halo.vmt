@@ -1,0 +1,39 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "tex/168/sur/halo"
+			$bumpmap "dev/dev_normal"
+	$lightwarptexture "tex/168/sur/basewarp"
+	$phong 1
+	$phongboost .02
+	$phongfresnelranges 1 .1 .1
+	"$halflambert" 1
+	"$nocull" 1
+	"$nodecal" 1
+	$translucent 1
+	
+		$detail tex/168/sur/glow
+       $detailscale 1        //scales the detail texture to same size as diffuse.
+       $detailblendfactor 0.7  //lower values make the texture less visible. 0.0 - 1.0
+       $detailblendmode 5    //6 also works
+	   
+	 $scale "100"
+	 $CurrentHealth "100"
+	 $zero "0"
+	 $one "1"
+	Proxies
+	{
+	Health                              
+    {
+	     Scale "$scale"                 
+	     resultVar "$CurrentHealth"     
+	}
+		LessOrEqual              
+    {
+     "LessEqualVar" "$zero"
+     "greaterVar" "$one"
+     "srcVar1" "$CurrentHealth"
+     "srcVar2" "$zero"
+     "resultVar" "$alpha"
+    }
+	}
+}
