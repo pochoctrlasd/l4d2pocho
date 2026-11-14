@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "bluearchive\Plana\texture\Plana_cloth_Base_color"
+	"$bumpmap" 							"bluearchive/Plana/texture/_normal"
+	"$nodecal" 							"1"
+	"$nocull" 							"1"
+	"$halflambert" 						"0"
+	//"$translucent" 					"1"
+	//"$model" 							"1"
+	//"$alphatest" 						"1"
+	//"$allowalphatocoverage" 			"1"
+
+	"$lightwarptexture" 				"bluearchive/Plana/texture/_facewarp"
+
+	//"$phong" 							"1"
+	"$phongboost"						"24"
+	"$phongalbedotint" 					"1"
+	"$phongexponenttexture" 			"bluearchive/Plana/texture/_phong_exp"
+	"$phongfresnelranges"				"[0 0 1]"
+
+	//"$rimlight"               		"1"
+	//"$rimlightexponent"       		"3"
+	//"$rimlightboost"          		"4"
+	
+	$selfillum 1
+}
